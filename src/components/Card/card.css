@@ -1,0 +1,20 @@
+.card {
+    max-width: 420px;
+}
+
+.card > a > p {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0.03em;
+    padding-bottom: 10px;
+    padding-top: 24px;
+    text-transform: uppercase;
+    color: #535A60;
+}
+
+.card > a > a {
+    font-size: 18px;
+    line-height: 140%;
+    color: #535A60;
+}

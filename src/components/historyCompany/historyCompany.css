@@ -1,0 +1,164 @@
+.ourHistory-img {
+    max-width: 635px;
+    width: 100%;
+}
+
+.whyAreMe-img {
+    max-width: 635px;
+    width: 100%;
+}
+
+.ourHistory {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.historyCompany-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    grid-gap: 100px;
+}
+
+.ourHistory-text {
+    background: #F3F6F9;
+    border-radius: 1px;
+    max-width: 650px;
+    width: 100%;
+    right: 0;
+    position: absolute;
+
+}
+
+.whyAreMe {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.whyAreMe-text {
+    background: #F3F6F9;
+    border-radius: 1px;
+    max-width: 650px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+
+}
+
+.whyAreMe-img {
+    max-width: 635px;
+    width: 100%;
+}
+
+.ourHistory-text-header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.whyAreMe-text-header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.ourHistory-text-wrapper {
+    padding: 45px 72px;
+}
+
+.whyAreMe-text-wrapper {
+    padding: 45px 72px;
+}
+
+.ourHistory-text-header:before {
+    content: '';
+    border: 5px solid #C9D1D9;
+    width: 80px;
+    left: -95px;
+    bottom: 6px;
+
+}
+
+.ourHistory-text-wrapper > p:last-child {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 170%;
+    color: #535A60;
+}
+
+.ourHistory-text-wrapper > p:nth-child(2) {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #535A60;
+    margin-bottom: 20px;
+}
+
+.whyAreMe-text-header:before {
+    content: '';
+    border: 5px solid #C9D1D9;
+    width: 80px;
+    left: -95px;
+    bottom: 6px;
+}
+
+.ourHistory-text-header > p {
+    padding-left: 15px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: #535A60;
+}
+
+.whyAreMe-text-header > p {
+    padding-left: 15px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: #535A60;
+}
+
+.whyAreMe-text-wrapper > p:nth-child(2) {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #535A60;
+    margin-bottom: 20px;
+}
+
+.whyAreMe-text-wrapper > ul > li:before {
+    content: '';
+    width: 11px;
+    height: 17px;
+    background: #C9D1D9;
+    border-radius: 1px;
+    left: 0;
+    position: absolute;
+
+}
+
+.whyAreMe-text-wrapper > ul > li {
+    font-size: 18px;
+    line-height: 150%;
+    color: #5A6167;
+    padding-left: 26px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.historyCompany{
+    margin-top: 150px;
+    max-width: 1180px;
+    margin-bottom: 150px;
+}

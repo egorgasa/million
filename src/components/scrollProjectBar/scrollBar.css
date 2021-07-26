@@ -1,0 +1,65 @@
+.scrollBar {
+    position: sticky;
+    right: 70px;
+    top: 290px;
+   /* padding-right: 70px;*/
+}
+
+.scrollBar > div > div > a:after {
+    content: url("../../../src/img/strelka.svg");
+    display: none;
+    transition: 2s;
+    padding-left: 7px;
+}
+
+.scrollBar > div > div > a {
+    font-size: 18px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #999999;
+
+}
+
+.scrollBar > div:hover > div > a:after {
+    display: inline-block;
+    transition: 2s;
+}
+
+.scrollBar > div:hover > div {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #535A60;
+    position: absolute;
+    left: -20px;
+    bottom: 14px;
+    height: 18px;
+}
+
+.scrollBar > div:last-child:hover > div {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #535A60;
+    position: absolute;
+    left: -20px;
+    bottom: 4px;
+    height: 18px;
+}
+
+.scrollBar > div {
+    padding: 10px;
+    transition: 2s;
+    height: 18px;
+    position: relative;
+}
+
+.scrollBar > div:last-child {
+    padding-bottom: 0px;
+}
+
+.scrollBar > div:first-child {
+    padding-top: 0px;
+}
