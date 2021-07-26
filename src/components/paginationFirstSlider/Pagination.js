@@ -9,7 +9,7 @@ function filterNotes(notes, search) {
     return notes;
 }
 
-export default function (props) {
+export default function Pagination (props) {
 
     const [search, setSearch] = React.useState('');
 
